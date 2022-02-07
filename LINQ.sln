@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqOverArray", "LinqOverAr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqRetValues", "LinqRetValues\LinqRetValues.csproj", "{B2879675-DB5E-4AE6-8A65-AB8E4F6410EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqOverCollections", "LinqOverCollections\LinqOverCollections.csproj", "{D9031004-399F-455C-9317-8A851C64D990}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B2879675-DB5E-4AE6-8A65-AB8E4F6410EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2879675-DB5E-4AE6-8A65-AB8E4F6410EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2879675-DB5E-4AE6-8A65-AB8E4F6410EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9031004-399F-455C-9317-8A851C64D990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9031004-399F-455C-9317-8A851C64D990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9031004-399F-455C-9317-8A851C64D990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9031004-399F-455C-9317-8A851C64D990}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
