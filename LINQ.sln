@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqUsingEnumerable", "Linq
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionFiltering", "CollectionFiltering\CollectionFiltering.csproj", "{363E10E0-C0A7-4A0A-9002-B2E2FDDC435B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingWithLINQ", "SortingWithLINQ\SortingWithLINQ.csproj", "{7FD869AC-8A19-4743-AC1C-9CDFB6EA898B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{363E10E0-C0A7-4A0A-9002-B2E2FDDC435B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{363E10E0-C0A7-4A0A-9002-B2E2FDDC435B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{363E10E0-C0A7-4A0A-9002-B2E2FDDC435B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FD869AC-8A19-4743-AC1C-9CDFB6EA898B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FD869AC-8A19-4743-AC1C-9CDFB6EA898B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FD869AC-8A19-4743-AC1C-9CDFB6EA898B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FD869AC-8A19-4743-AC1C-9CDFB6EA898B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

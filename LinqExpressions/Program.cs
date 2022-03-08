@@ -33,6 +33,9 @@ namespace LinqExpressions
             List<string> cars1 = new List<String> { "Yugo", "Aztec", "BMW" };
             List<string> cars2= new List<String> { "BMW", "Saab", "Aztec" };
 
+            Person[] people1 = { new Person("Nick"), new Person("Ruslan"), new Person("Henry") };
+            Person[] people2 = { new Person("Nick"), new Person("Marcus") };
+
             ListProductNames(itemsInStock);
             Console.WriteLine();
 
@@ -59,11 +62,14 @@ namespace LinqExpressions
 
             DisplayUnion(cars1, cars2);
             Console.WriteLine();
-
+            
             DisplayConcat(cars1, cars2);
             Console.WriteLine();
 
             DisplayConcatNoDups(cars1, cars2);
+            Console.WriteLine();
+
+            DisplayUnionClass(people1, people2);
             Console.WriteLine();
 
             AggregateOps();
@@ -194,6 +200,17 @@ namespace LinqExpressions
             foreach (var car in diff.Distinct())
             {
                 Console.WriteLine(car);
+            }
+        }
+
+        static void DisplayUnionClass(IEnumerable<Person> people1, IEnumerable<Person> people2)
+        {
+            Console.WriteLine("***** Union class Person: *****");
+            var diff = people1.Union(people2);
+
+            foreach (var person in diff)
+            {
+                Console.WriteLine(person.Name);
             }
         }
 
