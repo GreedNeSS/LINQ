@@ -6,6 +6,8 @@ namespace JoinCollectionApp
 {
     record Person(string Name, string Company);
     record Company(string Title, string Language);
+    record Student(string Name);
+    record Course(string Title);
 
     class Program
     {
@@ -26,10 +28,14 @@ namespace JoinCollectionApp
                 new Company("Oracle", "Java"),
             };
 
+            List<Course> courses = new List<Course> { new Course("C#"), new Course("Java") };
+            List<Student> students = new List<Student> { new Student("Tom"), new Student("Bob") };
+
             SimpleJoinOp(people, companies);
             SimpleJoinMet(people, companies);
             GroupJoinMet(people, companies);
             GroupJoinOp(people, companies);
+            ZipMet(courses, students);
         }
 
         static void SimpleJoinOp(IEnumerable<Person> people, IEnumerable<Company> companies)
@@ -122,6 +128,18 @@ namespace JoinCollectionApp
                 }
 
                 Console.WriteLine();
+            }
+        }
+
+        static void ZipMet(IEnumerable<Course> courses, IEnumerable<Student> students)
+        {
+            Console.WriteLine("\n=> ZipMet():");
+
+            var enrollments = courses.Zip(students);
+
+            foreach (var (First, Second) in enrollments)
+            {
+                Console.WriteLine($"{First} - {Second}");
             }
         }
     }
