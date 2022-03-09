@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AggregateWithLINQ", "Aggreg
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkipAndTake", "SkipAndTake\SkipAndTake.csproj", "{22FD7798-E337-4E4A-8F8C-2A5A645BEF0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupByApp", "GroupByApp\GroupByApp.csproj", "{67D46451-131E-435C-B30F-BC983B96199E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GroupByApp", "GroupByApp\GroupByApp.csproj", "{67D46451-131E-435C-B30F-BC983B96199E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoinCollectionApp", "JoinCollectionApp\JoinCollectionApp.csproj", "{A16FCCC8-DC35-478E-9E6B-33E25C2C7788}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{67D46451-131E-435C-B30F-BC983B96199E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67D46451-131E-435C-B30F-BC983B96199E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67D46451-131E-435C-B30F-BC983B96199E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A16FCCC8-DC35-478E-9E6B-33E25C2C7788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A16FCCC8-DC35-478E-9E6B-33E25C2C7788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A16FCCC8-DC35-478E-9E6B-33E25C2C7788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A16FCCC8-DC35-478E-9E6B-33E25C2C7788}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
