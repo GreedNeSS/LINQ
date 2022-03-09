@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingWithLINQ", "SortingW
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AggregateWithLINQ", "AggregateWithLINQ\AggregateWithLINQ.csproj", "{1AAF20D7-C343-4263-A9B6-22321AC9D499}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkipAndTake", "SkipAndTake\SkipAndTake.csproj", "{22FD7798-E337-4E4A-8F8C-2A5A645BEF0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkipAndTake", "SkipAndTake\SkipAndTake.csproj", "{22FD7798-E337-4E4A-8F8C-2A5A645BEF0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupByApp", "GroupByApp\GroupByApp.csproj", "{67D46451-131E-435C-B30F-BC983B96199E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{22FD7798-E337-4E4A-8F8C-2A5A645BEF0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22FD7798-E337-4E4A-8F8C-2A5A645BEF0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22FD7798-E337-4E4A-8F8C-2A5A645BEF0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67D46451-131E-435C-B30F-BC983B96199E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67D46451-131E-435C-B30F-BC983B96199E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67D46451-131E-435C-B30F-BC983B96199E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67D46451-131E-435C-B30F-BC983B96199E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
