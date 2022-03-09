@@ -13,11 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqExpressions", "LinqExpr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqUsingEnumerable", "LinqUsingEnumerable\LinqUsingEnumerable.csproj", "{56ADB6A2-A51B-4579-83DF-A535A88D734B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionFiltering", "CollectionFiltering\CollectionFiltering.csproj", "{363E10E0-C0A7-4A0A-9002-B2E2FDDC435B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionFiltering", "CollectionFiltering\CollectionFiltering.csproj", "{363E10E0-C0A7-4A0A-9002-B2E2FDDC435B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingWithLINQ", "SortingWithLINQ\SortingWithLINQ.csproj", "{7FD869AC-8A19-4743-AC1C-9CDFB6EA898B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingWithLINQ", "SortingWithLINQ\SortingWithLINQ.csproj", "{7FD869AC-8A19-4743-AC1C-9CDFB6EA898B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AggregateWithLINQ", "AggregateWithLINQ\AggregateWithLINQ.csproj", "{1AAF20D7-C343-4263-A9B6-22321AC9D499}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AggregateWithLINQ", "AggregateWithLINQ\AggregateWithLINQ.csproj", "{1AAF20D7-C343-4263-A9B6-22321AC9D499}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkipAndTake", "SkipAndTake\SkipAndTake.csproj", "{22FD7798-E337-4E4A-8F8C-2A5A645BEF0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{1AAF20D7-C343-4263-A9B6-22321AC9D499}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AAF20D7-C343-4263-A9B6-22321AC9D499}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AAF20D7-C343-4263-A9B6-22321AC9D499}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22FD7798-E337-4E4A-8F8C-2A5A645BEF0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22FD7798-E337-4E4A-8F8C-2A5A645BEF0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22FD7798-E337-4E4A-8F8C-2A5A645BEF0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22FD7798-E337-4E4A-8F8C-2A5A645BEF0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
